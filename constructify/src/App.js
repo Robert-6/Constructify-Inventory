@@ -107,36 +107,31 @@ function App() {
         </div>
         <div class="offcanvas-body">
           <ul class="list-group list-group-flush">
-            {/* <li
+            <li
               class="list-group-item p-5"
-              style="font-family: 'Exo 2', sans-serif"
             >
               <img src="./img/home(1).png" alt="" class="icons" /> Home
             </li>
             <li
               class="list-group-item p-5"
-              style="font-family: 'Exo 2', sans-serif"
             >
               <img src="./img/folder(1).png" alt="" class="icons" />
               Projects
             </li>
             <li
               class="list-group-item p-5"
-              style="font-family: 'Exo 2', sans-serif"
             >
               <img src="./img/wall-clock.png" alt="" class="icons" />
               Orders Pending
             </li>
             <li
               class="list-group-item p-5"
-              style="font-family: 'Exo 2', sans-serif"
             >
               <img src="./img/llave-inglesa.png" alt="" class="icons" />
               Materials/Tools Available
             </li>
-            <li
+            {/* <li
               class="list-group-item p-5"
-              style="font-family: 'Exo 2', sans-serif"
             ></li> */}
           </ul>
         </div>

@@ -5,8 +5,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
 .rowa{
   color: white;
   width: 75vw;
@@ -35,7 +33,9 @@ h2{
 
   font-size: x-large;
 }
-
+.list-group-item{
+  font-family: 'Exo 2', sans-serif;
+}
 
 .menu, .user{
   height: 2rem;
@@ -72,8 +72,5 @@ h2{
 .icons{
   height: 20px;
   width: 20px;
-
   margin: 0.5rem;
-
-
 }
