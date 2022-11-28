@@ -54,7 +54,7 @@ function App() {
                   alt=""
                 />
                 <div class="brand-name navbar-text align-self-center text-light">
-                  Constructify Inventory
+                  Constructify
                 </div>
                 <div class="d-md-none d-inline navbar-text align-self-center">
                   <p class="small font-weight-light">
@@ -88,7 +88,7 @@ function App() {
       <div
         class="offcanvas offcanvas-start bg-gradient"
         data-bs-scroll="true"
-        data-bs-backdrop="false"
+        data-bs-backdrop="true"
         tabindex="-1"
         id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel"
@@ -110,13 +110,20 @@ function App() {
             <li
               class="list-group-item p-5"
             >
-              <img src="./img/home(1).png" alt="" class="icons" /> Home
+              <a href="./index.html" class="text-decoration-none text-black">
+                <img src="./img/home(1).png" alt="" class="icons" /> Home
+              </a>
             </li>
             <li
               class="list-group-item p-5"
             >
-              <img src="./img/folder(1).png" alt="" class="icons" />
-              Projects
+              <a
+                href="./index.html"
+                class="text-decoration-none text-black"
+              >
+                <img src="./img/folder(1).png" alt="" class="icons" />
+                Projects
+              </a>
             </li>
             <li
               class="list-group-item p-5"
@@ -130,9 +137,9 @@ function App() {
               <img src="./img/llave-inglesa.png" alt="" class="icons" />
               Materials/Tools Available
             </li>
-            {/* <li
+            <li
               class="list-group-item p-5"
-            ></li> */}
+            ></li>
           </ul>
         </div>
       </div>
@@ -153,9 +160,11 @@ function App() {
                 Manage your project's tools, materials and personal needs.
               </p>
               <p class="desc text-center">Organized and easy!</p>
-              <button type="button" class="boton btn btn-warning btn-lg">
-                Create Project
-              </button>
+              {/* <a href="./Projets.js"> */}
+                <button type="button" class="boton btn btn-warning btn-lg">
+                  Create Project
+                </button>
+              {/* </a> */}
             </div>
           </div>
         </div>
